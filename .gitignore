@@ -1,0 +1,61 @@
+# ─────────────────────────────────────────────
+# Obsidian
+# ─────────────────────────────────────────────
+# 작업 중 UI 상태/캐시는 추적 제외, 설정(app/appearance/core-plugins)은 유지
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# 커뮤니티 플러그인: 코드·설정 파일은 추적 제외 (용량 크고 업데이트마다 바뀜, 재설치 가능)
+# community-plugins.json(활성 목록)은 .obsidian 바로 아래라 추적 유지됨 → 어떤 플러그인 쓰는지 기록 남음
+.obsidian/plugins/
+
+# ─────────────────────────────────────────────
+# C / C++ 빌드 산출물
+# ─────────────────────────────────────────────
+*.o
+*.obj
+*.exe
+*.out
+a.out
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.gch
+*.pch
+
+# CMake
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+compile_commands.json
+
+# ─────────────────────────────────────────────
+# Java
+# ─────────────────────────────────────────────
+*.class
+bin/
+target/
+.gradle/
+*.jar
+hs_err_pid*
+
+# ─────────────────────────────────────────────
+# IDE / 에디터
+# ─────────────────────────────────────────────
+.vs/
+.idea/
+*.user
+*.iml
+
+# ─────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
